@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MaterialApp(
-      home: Scaffold(
-    body: Center(
-      child: Text('Hola mundo'),
-    ),
-  )));
-}
+void main() => runApp(
+      MaterialApp(
+        home: Scaffold(
+          body: Center(
+            child: Text('Hola mundo'),
+          ),
+        ),
+      ),
+    );
 
 // https://www.jmgads.com/vjsite/lists/kotel/kotelcclicense.jpg
 
