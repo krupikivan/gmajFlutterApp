@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+      home: Scaffold(
+    body: Center(
+      child: Text('Hola mundo'),
+    ),
+  )));
 }
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
-      home: Text('Flutter Demo Home Page'),
-    );
-  }
-}
+// https://www.jmgads.com/vjsite/lists/kotel/kotelcclicense.jpg
+
+// https://lh3.googleusercontent.com/proxy/oiDwS_WuR2tHUk9tnpjrWFlqcT34cqfZpHY5vFvAl8C0ft7IXcSFqQjZzeWaJpzmIQx1gzvhTGBlUkPS_4T5u4JjlQFGQR8Yezvu_6nzmw0_J0LSgiw64J4xPtav
