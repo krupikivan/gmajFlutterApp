@@ -27,7 +27,7 @@ flutter:
     - assets/images/flutter_logo.png
     - assets/images/jerusalem.jpg
 
-  fonts:
+ # fonts:
     # - family: Roboto
     #   fonts:
     #     - asset: assets/fonts/Schyler-Regular.ttf
