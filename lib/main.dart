@@ -9,7 +9,7 @@ void main() => runApp(
           ),
           // Este es el widget que centra la imagen
           body: Center(
-            child: Image.asset('assets/images/flutter_logo.png'),
+            child: Image.asset('assets/images/jerusalem.png'),
             // child: Image.network('https://www.jmgads.com/vjsite/lists/kotel/kotelcclicense.jpg'),
           ),
           backgroundColor: Colors.black,
