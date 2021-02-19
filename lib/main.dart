@@ -4,12 +4,15 @@ void main() => runApp(
       MaterialApp(
         home: Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.grey,
             title: Text('Feliz Purim'),
           ),
+          // Este es el widget que centra la imagen
           body: Center(
-            child: Text('Hola mundo'),
+            child: Image.asset('assets/images/flutter_logo.png'),
+            // child: Image.network('https://www.jmgads.com/vjsite/lists/kotel/kotelcclicense.jpg'),
           ),
-          backgroundColor: Colors.yellow,
+          backgroundColor: Colors.black,
         ),
       ),
     );
